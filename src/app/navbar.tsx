@@ -17,12 +17,13 @@ export default function NavBar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Navigate</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <LinkButton href="/">Shop normal</LinkButton>
-            <LinkButton href="/">Shop error</LinkButton>
-            <LinkButton href="/">Shop 404</LinkButton>
-            <LinkButton href="/">Product normal</LinkButton>
-            <LinkButton href="/">Product error</LinkButton>
-            <LinkButton href="/">Product 404</LinkButton>
+            <LinkButton href="/">Home</LinkButton>
+            <LinkButton href="/shop/1">Shop normal</LinkButton>
+            <LinkButton href="/shop/fail">Shop error</LinkButton>
+            <LinkButton href="/shop/limbo">Shop 404</LinkButton>
+            <LinkButton href="/product/1">Product normal</LinkButton>
+            <LinkButton href="/product/fail">Product error</LinkButton>
+            <LinkButton href="/product/limbo">Product 404</LinkButton>
           </NavigationMenuContent>
         </NavigationMenuItem>
       </NavigationMenuList>
